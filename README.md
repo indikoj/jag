@@ -61,7 +61,7 @@ It is, in my opinion, the best way to avoid unwanted competition distractions.
 Thus, this idea is beginning to take shape using:
 
 - Python 3.11
-- Linux (Ubuntu 20.04.2 LTS)
+- Linux (Ubuntu 22.04.2 LTS)
 - MIT License
 
 Everyone is welcome to join.
