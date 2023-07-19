@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jag"
+version = "0.0.0"
+authors = [
+    {name = "Thomas Svensson", email = "thomas@tsvenson.com"},
+]
+description = "An Othello game running in the console."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["organizer", "console"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+]
+# The two below isn't ready yet.
+#dependencies = [
+#    "slim@git+https://github.com/ShazbotLabs/slim",
+#    "mindy@git+https://github.com/ShazbotLabs/mindy",
+#]
+
+[project.scripts]
+jag = "jag.main:app"
